@@ -21,5 +21,16 @@
 
 ## Issues I Ran Into
 
-- Claude Code requires a paid Claude Pro or Max subscription to log in via Claude.ai. 
-- Git was not installed by default. Downloaded and installed it from git-scm.com and restarted Cursor.
+- **First time dealing with developer tools** — This was my first 
+experience with any coding environment, so navigating everything 
+was completely new to me.
+- **Hard to navigate Cursor** — Finding the right panels like 
+Extensions was confusing at first as Cursor has many sections 
+that look similar.
+- **Claude Code requires a paid subscription** — Logging in via 
+Claude.ai requires a Pro or Max plan. 
+- **Git was not installed** — Had to download and install Git 
+separately from git-scm.com and restart Cursor.
+- **Step by step guidance through Claude** — Managed to complete 
+the entire setup with real-time help from Claude AI, which 
+explained every step in plain language.
