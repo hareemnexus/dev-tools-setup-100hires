@@ -1,36 +1,148 @@
-# Dev Tools Setup
+# Cold Outreach Research Repository
 
-## Tools I Installed
+### B2B SaaS Pipeline — Practitioner Knowledge Base
 
-- **Cursor IDE** — a code editor with built-in AI assistance
-- **Claude Code** — an AI coding assistant extension by Anthropic
-- **Codex** — an AI coding agent extension by OpenAI
-- **Git** — version control software to connect Cursor to GitHub
+This repository contains structured research on cold outreach for B2B SaaS, collected from 10 leading practitioners across YouTube,
 
-## Steps I Completed
+LinkedIn and industry blogs.
 
-1. Downloaded and installed Cursor IDE from cursor.com
-2. Installed the Claude Code extension by Anthropic and logged in
-3. Installed the Codex extension by OpenAI and logged in
-4. Created a GitHub account and a public repository
-5. Installed Git from git-scm.com
-6. Cloned the repository to my computer using the Terminal
-7. Opened the repository in Cursor
-8. Edited this README.md file to document my work
-9. Committed and pushed changes to GitHub
+Built as part of a GTM research task using the YouTube Data API, web scraping, and Claude AI to collect, process and organize content at scale.
 
-## Issues I Ran Into
+---
 
-- **First time dealing with developer tools** — This was my first 
-experience with any coding environment, so navigating everything 
-was completely new to me.
-- **Hard to navigate Cursor** — Finding the right panels like 
-Extensions was confusing at first as Cursor has many sections 
-that look similar.
-- **Claude Code requires a paid subscription** — Logging in via 
-Claude.ai requires a Pro or Max plan. 
-- **Git was not installed** — Had to download and install Git 
-separately from git-scm.com and restart Cursor.
-- **Step by step guidance through Claude** — Managed to complete 
-the entire setup with real-time help from Claude AI, which 
-explained every step in plain language.
+## Repository Structure
+
+```
+
+research/
+
+├── [sources.md](http://sources.md)               — 10 experts with profiles and selection rationale
+
+├── youtube-transcripts/     — 15 structured files from 5 YouTube creators
+
+├── linkedin-posts/          — 5 structured files from 5 LinkedIn creators
+
+└── other/                   — 5 structured blog articles from industry sources
+
+fetch_[youtube.py](http://youtube.py)             — Automated YouTube data collection script
+
+fetch_[blogs.py](http://blogs.py)               — Automated blog scraping and structuring script
+
+```
+
+---
+
+## How the Content Was Collected
+
+### YouTube Transcripts — Automated
+
+Built a Python script using:
+
+- **YouTube Data API v3** — to find channels and fetch latest videos
+
+- **youtube-transcript-api** — to pull auto-generated transcripts
+
+- **Anthropic API (Claude Haiku)** — to structure each transcript into
+
+  Summary, Key Points, Workflows, Use Cases and Quotes
+
+3 videos per creator × 5 creators = 15 structured files generated
+
+automatically.
+
+### LinkedIn Posts — Manual
+
+LinkedIn has no free public API. Posts were collected manually from each creator's recent activity page. 
+
+### Blog Articles — Automated
+
+Built a Python scraper using:
+
+- **requests + BeautifulSoup** — to fetch full article content
+
+- **Anthropic API (Claude Haiku)** — to structure each article into Summary, Key Points, Data and Key Takeaway
+
+5 articles from high-signal industry sources processed automatically.
+
+---
+
+## Why These 10 Experts
+
+Selected to cover every layer of a cold outreach pipeline:
+
+**Technical Infrastructure**
+
+Hans Dekker — emails need to land before anything else works.
+
+DNS, deliverability, sender reputation.
+
+**AI and Automation at Scale**
+
+Eric Nowoslawski, Nick Abraham — scale without losing personalization.
+
+Claude Code, Clay, AI agents for outbound.
+
+**Copywriting and Psychology**
+
+Adam Erhart, Zahra Batool Butt — the message drives replies.
+
+Frameworks, tone, personalization that feels human.
+
+**Workflow and Tooling**
+
+Fernando Cao Zheng, Felix Frank, Lohit Boruah — systems that make
+
+outreach repeatable. GTM stacks, signal capture, pipeline automation.
+
+**Pipeline and Strategy**
+
+Aaron Shepherd, Matt Lucero — turning activity into booked meetings.
+
+Outbound systems and measurable outcomes.
+
+Full profiles and selection rationale in `research/sources.md`
+
+---
+
+## What Pattern Emerged
+
+After reviewing content across all 10 experts and 5 blogs, one pattern stands out clearly:
+
+The teams winning at cold outreach in 2026 are not sending more. They are testing faster, segmenting tighter, and using AI to personalize at a level that was previously impossible at scale.
+
+Specifically:
+
+- **Infrastructure first** — deliverability problems kill campaigns before copy ever matters
+
+- **Signal-based targeting** — intent signals, hiring signals and technographics outperform demographic targeting alone
+
+- **Micro-campaigns over mass blasts** — 10-20 tightly segmented campaigns beat one large generic sequence every time
+
+- **AI as orchestration layer** — Claude Code and Clay are emerging as the central tools that connect data, personalization and sending
+
+---
+
+## What This Material Can Support
+
+The collected content is strong enough to support:
+
+- A full cold outreach playbook for a B2B SaaS product
+
+- Sequence frameworks and copywriting guidelines
+
+- Tool stack recommendations by use case and budget
+
+- A/B test hypotheses based on what practitioners are actively testing
+
+- Deliverability and infrastructure setup guidelines
+
+- ICP segmentation and signal-based targeting frameworks
+
+---
+
+*Research collected April 2026*
+
+```
+
+
+
