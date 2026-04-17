@@ -22,7 +22,7 @@ research/
 
 ├── linkedin-posts/          — 5 structured files from 5 LinkedIn creators
 
-└── other/                   — 5 structured blog articles from industry sources
+└── other/                   — 4 structured blog articles from industry sources
 
 fetch_[youtube.py](http://youtube.py)             — Automated YouTube data collection script
 
