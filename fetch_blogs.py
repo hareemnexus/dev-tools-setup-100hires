@@ -25,9 +25,9 @@ BLOGS = [
         "source": "Martal.ca"
     },
     {
-        "url": "https://quickmail.com/the-top-20-cold-email-experts-to-follow-in-2025",
-        "title": "Top 20 Cold Email Experts to Follow in 2025",
-        "source": "QuickMail"
+        "url": "https://sopro.io/resources/blog/cold-outreach-statistics/",
+        "title": "Cold Outreach Statistics 2026",
+        "source": "Sopro.io"
     },
     {
         "url": "https://instantly.ai/blog/cold-email-sequence/",
