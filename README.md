@@ -39,11 +39,8 @@ fetch_[blogs.py](http://blogs.py)               — Automated blog scraping and 
 Built a Python script using:
 
 - **YouTube Data API v3** — to find channels and fetch latest videos
-
 - **youtube-transcript-api** — to pull auto-generated transcripts
-
 - **Anthropic API (Claude Haiku)** — to structure each transcript into
-
   Summary, Key Points, Workflows, Use Cases and Quotes
 
 3 videos per creator × 5 creators = 15 structured files generated
@@ -59,7 +56,6 @@ LinkedIn has no free public API. Posts were collected manually from each creator
 Built a Python scraper using:
 
 - **requests + BeautifulSoup** — to fetch full article content
-
 - **Anthropic API (Claude Haiku)** — to structure each article into Summary, Key Points, Data and Key Takeaway
 
 4 articles from high-signal industry sources processed automatically.
@@ -113,11 +109,8 @@ The teams winning at cold outreach in 2026 are not sending more. They are testin
 Specifically:
 
 - **Infrastructure first** — deliverability problems kill campaigns before copy ever matters
-
 - **Signal-based targeting** — intent signals, hiring signals and technographics outperform demographic targeting alone
-
 - **Micro-campaigns over mass blasts** — 10-20 tightly segmented campaigns beat one large generic sequence every time
-
 - **AI as orchestration layer** — Claude Code and Clay are emerging as the central tools that connect data, personalization and sending
 
 ---
@@ -127,22 +120,29 @@ Specifically:
 The collected content is strong enough to support:
 
 - A full cold outreach playbook for a B2B SaaS product
-
 - Sequence frameworks and copywriting guidelines
-
 - Tool stack recommendations by use case and budget
-
 - A/B test hypotheses based on what practitioners are actively testing
-
 - Deliverability and infrastructure setup guidelines
-
 - ICP segmentation and signal-based targeting frameworks
 
 ---
 
 *Research collected April 2026*
 
-```
+---
+
+## Insights & Hypotheses
+
+Based on patterns identified across all collected material, `insights.md` in the root of this repo contains:
+
+- 5 key insights from the research
+
+- A testable hypothesis for each insight
+
+- Direct application to 100Hires' specific ICP and lead data
+
+This was not part of the original brief — it came from actually reading the material and noticing what kept repeating across sources.
 
 
 
