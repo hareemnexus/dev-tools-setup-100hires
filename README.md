@@ -62,7 +62,7 @@ Built a Python scraper using:
 
 - **Anthropic API (Claude Haiku)** — to structure each article into Summary, Key Points, Data and Key Takeaway
 
-5 articles from high-signal industry sources processed automatically.
+4 articles from high-signal industry sources processed automatically.
 
 ---
 
@@ -80,7 +80,7 @@ DNS, deliverability, sender reputation.
 
 Eric Nowoslawski, Nick Abraham — scale without losing personalization.
 
-Claude Code, Clay, AI agents for outbound.
+Claude Code, AI agents for outbound.
 
 **Copywriting and Psychology**
 
