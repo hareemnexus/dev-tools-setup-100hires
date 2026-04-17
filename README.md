@@ -128,10 +128,6 @@ The collected content is strong enough to support:
 
 ---
 
-*Research collected April 2026*
-
----
-
 ## Insights & Hypotheses
 
 Based on patterns identified across all collected material, `insights.md` in the root of this repo contains:
