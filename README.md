@@ -14,19 +14,14 @@ Built as part of a GTM research task using the YouTube Data API, web scraping, a
 
 ```
 
+insights.md                  — 5 insights and hypotheses from the research
+fetch_youtube.py             — Automated YouTube data collection script
+fetch_blogs.py               — Automated blog scraping and structuring script
 research/
-
-├── [sources.md](http://sources.md)               — 10 experts with profiles and selection rationale
-
+├── sources.md               — 10 experts with profiles and selection rationale
 ├── youtube-transcripts/     — 15 structured files from 5 YouTube creators
-
 ├── linkedin-posts/          — 5 structured files from 5 LinkedIn creators
-
 └── other/                   — 4 structured blog articles from industry sources
-
-fetch_[youtube.py](http://youtube.py)             — Automated YouTube data collection script
-
-fetch_[blogs.py](http://blogs.py)               — Automated blog scraping and structuring script
 
 ```
 
