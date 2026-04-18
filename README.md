@@ -2,9 +2,7 @@
 
 ### B2B SaaS Pipeline — Practitioner Knowledge Base
 
-This repository contains structured research on cold outreach for B2B SaaS, collected from 10 leading practitioners across YouTube,
-
-LinkedIn and industry blogs.
+This repository contains structured research on cold outreach for B2B SaaS, collected from 10 leading practitioners across YouTube, LinkedIn and industry blogs.
 
 Built as part of a GTM research task using the YouTube Data API, web scraping, and Claude AI to collect, process and organize content at scale.
 
@@ -35,12 +33,9 @@ Built a Python script using:
 
 - **YouTube Data API v3** — to find channels and fetch latest videos
 - **youtube-transcript-api** — to pull auto-generated transcripts
-- **Anthropic API (Claude Haiku)** — to structure each transcript into
-  Summary, Key Points, Workflows, Use Cases and Quotes
+- **Anthropic API (Claude Haiku)** — to structure each transcript into Summary, Key Points, Workflows, Use Cases and Quotes
 
-3 videos per creator × 5 creators = 15 structured files generated
-
-automatically.
+3 videos per creator × 5 creators = 15 structured files generated automatically.
 
 ### LinkedIn Posts — Manual
 
@@ -64,31 +59,26 @@ Selected to cover every layer of a cold outreach pipeline:
 **Technical Infrastructure**
 
 Hans Dekker — emails need to land before anything else works.
-
 DNS, deliverability, sender reputation.
 
 **AI and Automation at Scale**
 
 Eric Nowoslawski, Nick Abraham — scale without losing personalization.
-
 Claude Code, AI agents for outbound.
 
 **Copywriting and Psychology**
 
 Adam Erhart, Zahra Batool Butt — the message drives replies.
-
 Frameworks, tone, personalization that feels human.
 
 **Workflow and Tooling**
 
-Fernando Cao Zheng, Felix Frank, Lohit Boruah — systems that make
-
-outreach repeatable. GTM stacks, signal capture, pipeline automation.
+Fernando Cao Zheng, Felix Frank, Lohit Boruah — systems that make outreach repeatable. 
+GTM stacks, signal capture, pipeline automation.
 
 **Pipeline and Strategy**
 
 Aaron Shepherd, Matt Lucero — turning activity into booked meetings.
-
 Outbound systems and measurable outcomes.
 
 Full profiles and selection rationale in `research/sources.md`
