@@ -8,7 +8,7 @@
 
 Cold outreach is going through the same maturation that paid media went
 through a decade ago. The teams that figured out paid media early didn't
-win by spending more — they won by testing faster and targeting tighter.
+win by spending more, they won by testing faster and targeting tighter.
 
 The same logic is now playing out in outbound. The winning teams in 2026
 are not the ones with the biggest lists. They are the ones running the
@@ -24,7 +24,7 @@ This is the central pattern that runs across every source in this research.
 
 Every expert in this research, without exception, has moved away from
 high-volume generic blasting. Eric Nowoslawski sends 4 million emails
-a month but runs 250 Clay tables simultaneously — each one a tightly
+a month but runs 250 Clay tables simultaneously. Each one a tightly
 segmented micro-campaign with a specific angle.
 
 The implication for 100Hires: a list of 500 well-segmented leads with
@@ -62,8 +62,8 @@ inserting a few data points into a template. Felix Frank calls this
 out directly — "that's just noise."
 
 The real split is between:
-- **Surface personalization** — first name, company, job title tokens
-- **Deep personalization** — understanding what the person is actually
+- **Surface personalization** first name, company, job title tokens
+- **Deep personalization** understanding what the person is actually
   responsible for, what they're dealing with right now, and writing
   to that specifically
 
@@ -72,7 +72,7 @@ making the prospect feel genuinely understood rather than targeted.
 
 **Hypothesis to test:** Emails that open with a role-specific pain
 observation (no name, no company mention) will outperform emails that
-open with a company-specific data point by a meaningful margin — because
+open with a company-specific data point by a meaningful margin because
 the former feels like insight, the latter feels like research.
 
 ---
@@ -80,7 +80,7 @@ the former feels like insight, the latter feels like research.
 ## Insight 4 — The Signal Layer Is Underused
 
 Multiple experts reference intent signals and hiring signals as the
-highest-leverage targeting layer available — yet most teams are not
+highest-leverage targeting layer available yet most teams are not
 using them at all.
 
 Hiring signals in particular are directly relevant to 100Hires:
@@ -100,7 +100,7 @@ of a campaign targeting the same ICP without that signal filter.
 ## Insight 5 — The CTA Is Where Most Campaigns Die
 
 Across all 10 experts, the consistent failure point they identify is
-the CTA — specifically asking for too much too soon.
+the CTA specifically asking for too much too soon.
 
 "Book a 30-minute demo" as a first touch CTA is the equivalent of
 proposing marriage on a first date. Felix Frank, Zahra Batool Butt and
